@@ -3,12 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Forms</title>
+    <link rel="stylesheet" href="css/normalize.css">
   </head>
   <body>
     <form action="index.html" method="post">
-      <input type="text" id="name" name="user_name">
-      <textarea id="comment" name="user_comment">
-        </textarea>
+        <label for="name">Name:</label>
+      <input type="text" id="name" name="user_name"></br>
+      <label for="comment">Comment</label>
+      <textarea id="comment" name="user_comment"></textarea>
+        </textarea></br>
      <button type="submit">Submit Comment</button> 
     
     </form>
